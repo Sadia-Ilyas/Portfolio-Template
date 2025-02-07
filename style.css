@@ -1,0 +1,352 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.home {
+  width: 100%;
+
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./imgs/office.jpg");
+}
+.home h2 {
+  color: rgb(201, 131, 39);
+  text-align: center;
+  font-size: 60px;
+  padding: 200px 300px;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+.navbar .manu ul li {
+  padding: 20px 20px;
+  display: inline-block;
+}
+.navbar .manu ul li a {
+  color: white;
+}
+.nav {
+  width: 400px;
+  height: 80px;
+  /* background-color: burlywood; */
+}
+.nav .manu ul li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+}
+.manu ul li a {
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 30px;
+}
+.manu ul li a:hover {
+  padding: 25px 25px;
+  background-color: white;
+  color: black;
+}
+.manu {
+  float: right;
+  margin-top: -80px;
+  width: 1000px;
+  height: 80px;
+  /* background-color: burlywood; */
+}
+
+.navbar .nav h1 {
+  padding: 15px 35px;
+  color: white;
+}
+.about {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  margin-top: 30px;
+  background: rgb(238, 241, 241);
+  box-sizing: border-box;
+}
+.about-child {
+  width: 600px;
+  height: 300px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: self-start;
+}
+.about .div1 {
+  float: left;
+  width: 600px;
+  height: 600px;
+  /* background-color: aquamarine; */
+}
+
+.about .div1 .img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: url(../imgs/profille2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.about .div1 .skills {
+  padding: 0px 60px;
+  font-size: 20px;
+}
+
+.about .div1 .profile {
+  width: 200px;
+  height: 200px;
+
+  /* background: red; */
+  float: right;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+.about .img .profile .about-child .skills {
+  padding: 20px 20px;
+}
+.about ul li {
+  list-style-type: none;
+}
+
+.about .div2 {
+  float: right;
+  width: 600px;
+  height: 600px;
+
+  /* background-color: rgb(66, 105, 92); */
+  box-sizing: border-box;
+
+  padding: 40px 40px;
+  font-size: 20px;
+}
+.services {
+  width: 1100px;
+  height: 850px;
+  margin: 0px auto;
+  margin-top: 30px;
+  background: rgb(238, 241, 241);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.services-head {
+  width: 1000px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 20px 20px;
+  text-align: center;
+  /* background: red; */
+  font-size: 25px;
+}
+.services .box {
+  width: 300px;
+  height: 300px;
+  background: #b8aeae;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+.services .box .subdiv {
+  width: 70px;
+  height: 70px;
+  border: 6px solid blue;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-blue {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  background: rgb(107, 189, 221);
+}
+
+.mainsubdiv1 {
+  width: 1000px;
+  height: 150px;
+
+  margin: 0 auto;
+  /* background: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.section-blue .mainsubdiv1 .subdiv {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 20px;
+
+  border: 8px solid skyblue;
+}
+.section-blue .mainsubdiv2{
+  width: 1000px;
+  height: 150px;
+  /* background: yellow; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.portfolio {
+  width: 1100px;
+  height: 850px;
+  margin: 30px auto;
+  background: rgb(238, 241, 241);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.portfolio-head {
+  width: 1000px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 20px 20px;
+
+  text-align: center;
+  /* background: red; */
+  font-size: 25px;
+}
+.portfolio .card {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  background: white;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+.portfolio .card .card-head {
+  padding: 15px 15px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portfolio .card .card-body {
+  padding: 10px 20px;
+}
+.section-blue1 {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  background: rgb(107, 189, 221);
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+  font-size: 20px;
+}
+.blog {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: rgb(238, 241, 241);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.blog .blog-heading {
+  width: 1000px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 20px 20px;
+
+  text-align: center;
+  /* background: red; */
+  font-size: 25px;
+}
+.blog-card {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  background: white;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+.blog-card .blog-head {
+  padding: 15px 15px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog-card .blog-body {
+  padding: 0px 20px;
+}
+.section-blue2 {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: rgb(107, 189, 221);
+}
+.section-blue2 .form {
+  width: 1200px;
+  height: 500px;
+  margin: 0px auto;
+  
+
+  box-sizing: border-box;
+  background-color: white;
+}
+.form .contact {
+  float: left;
+  width: 600px;
+  height: 500px;
+
+  /* background: gold; */
+}
+.contact h1 {
+  padding: 40px 20px;
+  margin-left: 50px;
+}
+
+.form input {
+  margin-left: 50px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.form textarea {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.form .get-in-touch {
+  float: right;
+  width: 600px;
+  height: 500px;
+  /* background: rgb(186, 181, 151); */
+}
+.form .get-in-touch h1 {
+  padding: 40px 40px;
+}
+.form .get-in-touch p {
+  padding: 10px 40px;
+  font-size: 20px;
+}
+.form .get-in-touch h4 {
+  padding: 10px 40px;
+  font-size: 20px;
+}
